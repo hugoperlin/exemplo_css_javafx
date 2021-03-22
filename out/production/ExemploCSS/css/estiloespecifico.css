@@ -1,0 +1,14 @@
+.label{
+    -fx-background-color: rgb(204, 188, 201);
+    -fx-font-size: 25;
+}
+
+.classe-para-o-label{
+    -fx-text-fill: purple;
+    -fx-font-weight: bold;
+}
+
+
+#tfIdade{
+    -fx-text-fill: #a83295;
+}

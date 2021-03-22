@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Janela"
+      prefHeight="400.0" prefWidth="600.0" spacing="10" stylesheets="@/css/estilo.css" fx:id="painel" >
+
+        <Label text="Nome:" labelFor="$tfNome" style="-fx-text-fill: green"/>
+        <TextField fx:id="tfNome"/>
+
+    <HBox stylesheets="@/css/estiloespecifico.css">
+
+        <Label text="Idade:" labelFor="$tfIdade" styleClass="classe-para-o-label"/>
+        <TextField fx:id="tfIdade" />
+    </HBox>
+
+    <CheckBox text="Gosta de café?" fx:id="chkCafe" onAction="#mudaCafe"/>
+
+    <HBox>
+        <Button>
+            <graphic>
+                <FontIcon iconLiteral="fa-angellist" iconSize="25"/>
+            </graphic>
+        </Button>
+        <Button fx:id="btLimpar" text="Limpar">
+            <graphic>
+                <FontIcon/>
+            </graphic>
+        </Button>
+        <Button text="Muda estilo" onAction="#mudaArquivoEstilo"/>
+    </HBox>
+
+    <Text fx:id="txtSaida1" />
+    <Text fx:id="txtSaida2" />
+
+</VBox>

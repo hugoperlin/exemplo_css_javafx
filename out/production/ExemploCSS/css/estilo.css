@@ -1,0 +1,53 @@
+* {
+    -cor-verde: green;
+}
+
+
+#btLimpar .ikonli-font-icon {
+    -fx-icon-code: "di-atom";
+    -fx-icon-color: blue;
+    -fx-icon-size: 20pt;
+}
+
+#btLimpar:hover {
+    -fx-background-color: -cor-verde;
+}
+
+#btLimpar:pressed {
+    -fx-background-color: orange;
+}
+
+#painel{
+    -fx-padding: 10;
+
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: red;
+
+    -fx-background-image: url("/imgs/fundo.jpg");
+}
+
+.text-field {
+
+    -fx-background-color: gray;
+    -fx-background-radius: 50;
+
+    -fx-border-style: dashed;
+    -fx-border-radius: 50;
+    -fx-border-width: 3px;
+    -fx-border-color: yellow;
+
+}
+
+
+.menor-idade{
+    -fx-background-color: yellow;
+}
+
+.gosta_cafe {
+    -fx-background-color: green;
+}
+
+.label{
+    -fx-font-size: 15;
+}

@@ -1,0 +1,35 @@
+.button {
+    -fx-background-color: red;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-underline: true;
+}
+
+.button:hover{
+    -fx-background-color: yellow;
+}
+
+.button:pressed{
+    -fx-background-color: green;
+}
+
+
+.label{
+
+}
+
+.text-field{
+
+}
+
+.check-box{
+
+}
+
+.minha-classe{
+
+}
+
+#tfIdade{
+    -fx-background-color: blue;
+}
